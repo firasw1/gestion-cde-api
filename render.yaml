@@ -1,0 +1,13 @@
+# render.yaml
+services:
+  - type: web
+    name: gestion-cde-api
+    runtime: docker
+    plan: free
+    region: frankfurt
+    branch: main
+    autoDeploy: true
+    healthCheckPath: /api/commandes
+    envVars:
+      - key: JAVA_OPTS
+        value: -Xmx256m -Xms128m
