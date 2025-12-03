@@ -10,7 +10,7 @@ public class DatabaseConnection {
     public static Connection getConnection() {
         try {
             // Configuration FreeSQLDatabase
-            String url = "jdbc:mysql://sql7.freesqldatabase.com:3306/sqlsql7810365?useSSL=false&serverTimezone=UTC";
+            String url = "jdbc:mysql://sql7.freesqldatabase.com:3306/sql7810365?useSSL=false&serverTimezone=UTC";
             String username = "sql7810365";
             String password = "AJBzBLXTl8";
 
